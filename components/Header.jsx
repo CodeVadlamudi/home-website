@@ -51,9 +51,9 @@ function Header() {
 
         <button onClick={() => setToggle(!toggle)} className="lg:hidden">
           {toggle ? (
-            <XMarkIcon className="w-6 h-6 cursor-pointer" />
+            <XMarkIcon className="w-7 h-7 cursor-pointer" />
           ) : (
-            <Bars3Icon className="w-6 h-6 cursor-pointer" />
+            <Bars3Icon className="w-7 h-7 cursor-pointer" />
           )}
         </button>
       </div>
